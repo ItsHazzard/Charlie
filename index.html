@@ -1,0 +1,121 @@
+To incorporate the Wonka purple and gold colors, and the "Chocolate" font, you can update the CSS styles. Make sure to include the respective font files in your project, or you can link to them from a CDN. Below is an updated example with these changes:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlie and the Chocolate Factory Play at HVGS</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Chocolate', cursive;
+            background-color: #F1C40F; /* Wonka gold background color */
+        }
+
+        header {
+            background-color: #8E44AD; /* Wonka purple header color */
+            padding: 20px;
+            color: #ECF0F1;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: #ECF0F1;
+            text-decoration: none;
+            margin: 0 20px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #3498DB;
+        }
+
+        section {
+            background-color: #ECF0F1; /* Wonka purple content background color */
+            padding: 40px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color: #8E44AD; /* Wonka purple heading color */
+        }
+
+        p {
+            color: #2C3E50; /* Dark text color for better readability */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Charlie and the Chocolate Factory Play at HVGS</h1>
+        <p>Experience the magical journey!</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#cast">Cast</a>
+            <a href="#schedule">Schedule</a>
+            <a href="#tickets">Tickets</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About the Play</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+            Vestibulum cursus lacus nec orci posuere, ac feugiat libero maximus.
+            Integer vitae quam id est sodales tristique.
+        </p>
+    </section>
+
+    <section id="cast">
+        <h2>Meet the Cast</h2>
+        <p>
+            Get to know the talented cast bringing Charlie and the Chocolate Factory to life!
+        </p>
+        <!-- Add cast details, images, etc. -->
+    </section>
+
+    <section id="schedule">
+        <h2>Performance Schedule</h2>
+        <p>
+            Check out the schedule to plan your visit and enjoy the show!
+        </p>
+        <!-- Add performance dates, times, and venue information -->
+    </section>
+
+    <section id="tickets">
+        <h2>Get Your Tickets</h2>
+        <p>
+            Secure your tickets now for an unforgettable experience!
+        </p>
+        <!-- Add ticket information and purchase options -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>
+            Have questions or need assistance? Reach out to us!
+        </p>
+        <!-- Add contact form or contact details -->
+    </section>
+
+</body>
+</html>
+```
+
+Make sure to include the "Chocolate" font in your project, and if needed, replace the background colors and text colors with more suitable shades of Wonka purple and gold based on your design preferences.
